@@ -21,6 +21,7 @@
 		0C9798B919A6B61400426877 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C97989B19A6B61400426877 /* UIKit.framework */; };
 		0C9798C119A6B61400426877 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C9798BF19A6B61400426877 /* InfoPlist.strings */; };
 		0C9798C319A6B61400426877 /* ProtocolosDelegadosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9798C219A6B61400426877 /* ProtocolosDelegadosTests.m */; };
+		0C9798CF19A6CBF900426877 /* FileDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9798CE19A6CBF900426877 /* FileDataAccess.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		0C9798BE19A6B61400426877 /* ProtocolosDelegadosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProtocolosDelegadosTests-Info.plist"; sourceTree = "<group>"; };
 		0C9798C019A6B61400426877 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C9798C219A6B61400426877 /* ProtocolosDelegadosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolosDelegadosTests.m; sourceTree = "<group>"; };
+		0C9798CC19A6C76B00426877 /* FileDataAccessDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDataAccessDelegate.h; sourceTree = "<group>"; };
+		0C9798CD19A6CBF900426877 /* FileDataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDataAccess.h; sourceTree = "<group>"; };
+		0C9798CE19A6CBF900426877 /* FileDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDataAccess.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		0C97988B19A6B61400426877 = {
 			isa = PBXGroup;
 			children = (
+				0C9798CD19A6CBF900426877 /* FileDataAccess.h */,
+				0C9798CE19A6CBF900426877 /* FileDataAccess.m */,
 				0C97989D19A6B61400426877 /* ProtocolosDelegados */,
 				0C9798BC19A6B61400426877 /* ProtocolosDelegadosTests */,
 				0C97989619A6B61400426877 /* Frameworks */,
@@ -115,6 +121,7 @@
 				0C9798A619A6B61400426877 /* AppDelegate.h */,
 				0C9798A719A6B61400426877 /* AppDelegate.m */,
 				0C9798A919A6B61400426877 /* Main.storyboard */,
+				0C9798CC19A6C76B00426877 /* FileDataAccessDelegate.h */,
 				0C9798AC19A6B61400426877 /* ViewController.h */,
 				0C9798AD19A6B61400426877 /* ViewController.m */,
 				0C9798AF19A6B61400426877 /* Images.xcassets */,
@@ -252,6 +259,7 @@
 				0C9798AE19A6B61400426877 /* ViewController.m in Sources */,
 				0C9798A819A6B61400426877 /* AppDelegate.m in Sources */,
 				0C9798A419A6B61400426877 /* main.m in Sources */,
+				0C9798CF19A6CBF900426877 /* FileDataAccess.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
